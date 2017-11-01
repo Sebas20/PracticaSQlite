@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sebastian.practica_6_sqlite.ConsultarSQLFragment">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/eDocumento"
+                android:layout_width="0dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="Documento" />
+
+            <Button
+                android:id="@+id/bConsultar"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Consultar" />
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/tNombre"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tTelefono"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telefono"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:gravity="center"
+                android:id="@+id/bActualizar"
+                android:layout_marginTop="50dp"
+                android:layout_width="150dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:text="Actualizar"
+                />
+            <Button
+                android:gravity="center"
+                android:id="@+id/bEliminar"
+                android:layout_marginTop="50dp"
+                android:layout_width="150dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:text="Eliminar"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

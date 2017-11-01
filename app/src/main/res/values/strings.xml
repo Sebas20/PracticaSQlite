@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Practica_6_Sqlite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registro">Registro de Usuarios</string>
+    <string name="id">id</string>
+    <string name="nombre">Nombre</string>
+    <string name="registrar">Registrar Usuario</string>
+    <string name="id_libro">id Libro</string>
+    <string name="nombre_libro">Nombre Libro</string>
+    <string name="nombre_autor">Nombre Autor</string>
+    <string name="nombre_persona">Nombre Persona</string>
+    <string name="telefono">Telefono</string>
+    <string name="registrar_libro">Registrar Libro</string>
+</resources>
